@@ -8,31 +8,18 @@ img{
 }
 
 .mp-page{
-position: relative;
-width: 100%;
-height: 100vh;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .mp-shot{
-position: absolute;
-width:100%;
-z-index:1;
-animation: move-left-to-right 5s infinite;
-}
-
-@keyframes move-left-to-right {
-  0%
-  {
-    margin-left: 0;
-  }
-  50%
-  {
-    magrin-right: 500px;
-  }
-  100%
-  {
-    margin-top: auto;
-  }
+  position: absolute;
+  top: -150%;
+  left: -100%;
+  width: 300%;
+  z-index:1;
 }
 
 .mp-top-left{
