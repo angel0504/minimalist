@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+img{
+  width: 100%;
+}
+
+.mp-page{
+position: relative;
+width:200px;
+height: 200px;
+}
+
+.mp-shot{
+position: absolute;
+width:600%;
+z-index:1;
+animation: move-left-to-right 5s infinite;
+}
+
+@keyframes move-left-to-right {
+  0%
+  {
+    margin-left: 0;
+  }
+  50%
+  {
+    magrin-right: 500px;
+  }
+  100%
+  {
+    margin-top: auto;
+  }
+}
+
+.mp-top-left{
+  position: absolute;
+  width:200px;
+  top:50;
+  left:150%;
+}
+
+.mp-bottom-left{
+  position: absolute;
+  width:200px;
+  bottom:-200%;
+  left:150%;
+}
+
+.mp-top-right{
+  position: absolute;
+  width:200px;
+  top:0;
+  right:-350%;
+}
+
+.mp-bottom-right{
+  position: absolute;
+ width:200px;
+  bottom:-200%;
+  right:-350%;
+}
